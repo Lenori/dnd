@@ -6,12 +6,12 @@ import RouteManager from './routes';
 import GlobalStyle from './styles/global';
 
 function App() {
-	return (
-		<BrowserRouter>
-			<RouteManager />
-			<GlobalStyle />
-		</BrowserRouter>
-	);
+    return (
+        <BrowserRouter>
+            <RouteManager />
+            <GlobalStyle />
+        </BrowserRouter>
+    );
 }
 
 export default App;
