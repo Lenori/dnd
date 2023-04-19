@@ -1,17 +1,13 @@
 import React from 'react';
 
+import Menu from '../../components/Menu/Menu';
+
 import * as S from './Home.styles';
 
-import * as Interface from './Home.types';
-
-export default function Component() {
-    const state: Interface.HomePropTypes = {
-        message: 'Componente vazio',
-    };
-
+export default function Home() {
     return (
         <S.Container>
-            <h1>{state.message}</h1>
+            <Menu />
         </S.Container>
     );
 }

@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+import backgroundImage from '../images/background.jpg';
+
 export default createGlobalStyle`
     *:focus {
         outline: 0;
@@ -14,7 +16,11 @@ export default createGlobalStyle`
 
     body {
         font-family: 'Ubuntu', sans-serif;
+        font-size: 62.5%;
         background-color: #F3F5F8;
+        border: none;
+        background-image: url(${backgroundImage});
+        background-repeat: no-repeat;
 
         color: var(--dark-grey);
     }

@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
 `;
